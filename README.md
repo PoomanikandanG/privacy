@@ -129,7 +129,7 @@ decryptAggregate(aggregateCiphertext, numVotes):
    - Edit `backend/.env` to customize the student roster:
      ```
      PORT=4000
-     STUDENT_ROSTER=[{"name":"Alice Johnson","usn":"1MS21CS001"},{"name":"Bob Smith","usn":"1MS21CS002"}]
+     STUDENT_ROSTER=[{"name":"mani","usn":"1"},{"name":"swapnil","usn":"2"}]
      ```
    - Format: JSON array string with `name` and `usn` fields
 
@@ -209,7 +209,7 @@ decryptAggregate(aggregateCiphertext, numVotes):
 
 3. **Cast votes as students**:
    - Open `http://localhost:3000/vote` in incognito tabs
-   - Login with roster credentials (e.g., "Alice Johnson", "1MS21CS001")
+   - Login with roster credentials (e.g., "mani", "1")
    - Submit a few votes with different ratings
 
 4. **Watch real-time updates**:
